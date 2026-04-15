@@ -2,7 +2,6 @@ services:
   - type: web
     name: snake-rl
     env: python
-    pythonVersion: 3.11.9
     plan: free
     envVars:
       - key: PYTHON_VERSION
