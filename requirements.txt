@@ -1,0 +1,6 @@
+flask==3.0.2
+matplotlib==3.8.3
+numpy==1.26.4
+pillow==10.2.0
+pygame==2.5.2
+torch==2.2.2
