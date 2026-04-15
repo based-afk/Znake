@@ -3,5 +3,8 @@ services:
     name: snake-rl
     env: python
     plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
     buildCommand: pip install -r requirements.txt
     startCommand: python web_app.py
